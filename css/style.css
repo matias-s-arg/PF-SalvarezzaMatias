@@ -1,0 +1,16 @@
+p {
+  color: white;
+}
+
+div {
+  background-color: red;
+}
+div p {
+  color: red;
+}
+
+p {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

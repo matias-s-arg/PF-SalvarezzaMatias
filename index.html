@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega_2</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- AOM main -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- BOOTSTRAP MAIN -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS main (CSS va siempre ultimo para que no los pise nada)-->
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+    
+
+<body>
+    <div id="grid_padre">   
+        <header class="header_container">
+            <nav class="nav_desktop">
+                <ul>
+                    <li><div data-aos="flip-right"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                            <img src="./images/LogoBase.png" alt="LogoBase" class="img_logo">
+                        </div>
+                    </li>
+                    <li><a class="fancy" href="./index.html">
+                        <span class="top-key"></span>
+                        <span class="text">HOME</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                        </a>
+                    </li>
+                    <li><a class="fancy" href="./Pages/pagina_1.html">
+                        <span class="top-key"></span>
+                        <span class="text">SERVICIOS</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                        </a>
+                    </li>
+                    <li><a class="fancy" href="./Pages/pagina_2.html">
+                        <span class="top-key"></span>
+                        <span class="text">ALOJAMIENTO</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                        </a>
+                    </li>
+                    <li><a class="fancy" href="./Pages/pagina_3.html">
+                        <span class="top-key"></span>
+                        <span class="text">¿DONDE ESTAMOS?</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                        </a>
+                    </li>
+                    <li class="no_tablet"><a class="fancy" href="./Pages/contacto.html">
+                        <span class="top-key"></span>
+                        <span class="text">CONTACTO</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav  class="nav_desktop">
+                <ul class="no_mobile navbar_redes">
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="facebook" class="redes_soc_s"></a></li>
+                    <li><a href="https://twitter.com/?lang=es" target="_blank"><img src="./images/twitter.png" alt="twitter" class="redes_soc_s"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" alt="instagram" class="redes_soc_s"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube.png" alt="youtube" class="redes_soc_s"></a></li>
+                </ul>
+            </nav>
+        </header>
+    <main class="article_content">g
+        <div class="modal_home">
+        <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            ¡ACLARACIONES PARA LA ENTREGA!    </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Aclaraciones sobre el proyecto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Las páginas HOME Y SERVICIOS fueron realizadas principalmente con flexbox y grid en modo resposive, como así tambien el navbar de todas las páginas. El resto de las páginas fueron ejecutados con bootstrap, como así tambien los navbar de los submenús de las páginas SERVICIOS y ALOJAMIENTO. La página de RESERVAS está en construcción. Ésta última pagina no es accesibe desde el navbar, pero se puede volver a cualquier otra página.
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                </div>
+            </div>
+            </div>
+        </div>
+
+       
+        <article class="article_central titulo_tr">
+            
+            <div>
+                <h1 class="titulo_sitio">ALDEA DEL SUR</h1>
+            </div>
+            <div class="textos">
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus nesciunt illum distinctio accusamus aspernatur doloribus dolore. Sed qui eius, voluptatem culpa, quasi atque minima tempora expedita aspernatur, velit aut!
+                Rem nostrum cumque dolores at natus 
+            </div>
+            <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="./images/lago_portada.jpg" class="d-block w-100 img_carrusel" alt="portada1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/1cabaña moderna.jpg" class="d-block w-100 img_carrusel" alt="portada2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/2cabaña.jpg" class="d-block w-100 img_carrusel" alt="portada3">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/3bungalows.jpg" class="d-block w-100 img_carrusel" alt="portada4">
+                </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div> -->
+
+
+            <div id="carouselExampleControls" class="carousel slide col-md-12" data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active ">
+                    <img src="./images/lago_portada.jpg" class="d-block img_carrusel" alt="portada1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/1cabaña moderna.jpg" class="d-block img_carrusel" alt="portada2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/2cabaña.jpg" class="d-block img_carrusel" alt="portada3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/3bungalows.jpg" class="d-block img_carrusel" alt="portada4">
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+            <!-- <div>
+                <img src="./images/lago_portada.jpg" alt="portada" class="image_central ">
+            </div> -->
+            
+            
+        </article>
+
+    </main>
+    <footer class="redes_footer">
+        <!-- Redes sociales -->
+        <div class="redes_container">
+            <a class="fancy contacto_tablet" href="./scripts/contacto.html">
+                <span class="top-key"></span>
+                <span class="text">CONTACTO</span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="facebook" class="redes_soc"></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><img src="./images/twitter.png" alt="twitter" class="redes_soc"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" alt="instagram" class="redes_soc"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube.png" alt="youtube" class="redes_soc"></a>
+        </div>
+    </footer>
+    </div>
+
+
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- INICIALIZAR AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- BOOTSTRAP -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
