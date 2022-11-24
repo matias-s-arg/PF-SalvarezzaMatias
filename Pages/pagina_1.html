@@ -13,7 +13,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- CSS main (CSS va siempre ultimo para que no los pise nada)-->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/style.css">
     
 </head>
     
@@ -31,43 +31,37 @@
                     </li>
                     <li><a class="fancy" href="../index.html">
                         <span class="top-key"></span>
-                        <span class="text">HOME</span>
+                        <span class="text_menu">HOME</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
                     </li>
                     <li><a class="fancy" href="./pagina_1.html">
                         <span class="top-key"></span>
-                        <span class="text">SERVICIOS</span>
+                        <span class="text_menu">SERVICIOS</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
                     </li>
                     <li><a class="fancy" href="./pagina_2.html">
                         <span class="top-key"></span>
-                        <span class="text">ALOJAMIENTO</span>
+                        <span class="text_menu">ALOJAMIENTO</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
                     </li>
                     <li><a class="fancy" href="./pagina_3.html">
                         <span class="top-key"></span>
-                        <span class="text">¿DONDE ESTAMOS?</span>
+                        <span class="text_menu">¿DONDE ESTAMOS?</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
                     </li>
 
-                    <!-- <li><a class="fancy" href="./quienes_somos.html">
-                        <span class="top-key"></span>
-                        <span class="text">¿QUIENES SOMOS?</span>
-                        <span class="bottom-key-1"></span>
-                        <span class="bottom-key-2"></span>
-                        </a>
-                    </li> -->
+                    
                     <li class="no_tablet"><a class="fancy" href="./contacto.html">
                         <span class="top-key"></span>
-                        <span class="text">CONTACTO</span>
+                        <span class="text_menu">CONTACTO</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
@@ -82,26 +76,18 @@
                     <li><a href="https://www.youtube.com/" target="_blank"><img src="../images/youtube.png" alt="youtube" class="redes_soc_s"></a></li>
                 </ul>
             </nav>
-            <!-- <nav data-aos="fade-up"
-            data-aos-duration="3000">
-                <ul class="botones_submenu" data-aos="fade-up"
-                data-aos-duration="3000">
-                    <li><a href="#subcat1"><button class="button">Instalaciones</button></a></li>
-                    <li><a href="#subcat2"><button class="button">Deportes</button></a></li>
-                    <li><a href="#subcat3"><button class="button">Excursiones</button></a></li>
-                </ul>
-            </nav> -->
+            
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Ver más</a>
+                  <a class="navbar-brand text_submenu2" href="#">Ver más</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link" href="#subcat1">Instalaciones</a>
-                      <a class="nav-link" href="#subcat2">Deportes</a>
-                      <a class="nav-link" href="#subcat3">Excursiones</a>
+                      <a class="navbar-brand text_submenu" href="#subcat1">Instalaciones</a>
+                      <a class="navbar-brand text_submenu" href="#subcat2">Deportes</a>
+                      <a class="navbar-brand text_submenu" href="#subcat3">Excursiones</a>
                     </div>
                   </div>
                 </div>
@@ -111,10 +97,8 @@
 
         </header>
     
-        <main>
-            <div class="accesshome">
-                <a href="../index.html"><img src="../images/accesshome.png" alt="accesshome" class="accesshome"></a>
-            </div>
+        
+         <main>   
             <footer id="subcat1"></footer>
             <h2 class="subcat" data-aos="fade-right"
             data-aos-offset="300"
@@ -123,29 +107,29 @@
             <!-- PARA MOBIL Y DESKTOP -->
 
             <article class="cont_img">
-                <div data-aos="zoom-in">
+                <div class="tarjetas" data-aos="zoom-in">
                     <img  class="imagenes_p2" src="../images/1spa.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Espacios de SPA con profesionales de primer nivel. Cursos de estética y capacitación</p>
                 </div>
-                <div data-aos="zoom-in">
+                <div class="tarjetas" data-aos="zoom-in">
                     <img  class="imagenes_p2" src="../images/2solarium.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Solarium que cuenta con tres equipos de ultima generacion disponibles 24 hs</p>
                 </div>
-                <div data-aos="zoom-in">
+                <div class="tarjetas" data-aos="zoom-in">
                     <img  class="imagenes_p2" src="../images/3parrilla.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Parrilla individual para uso familiar y en espacios comunes para eventos.</p>
                 </div>
-                <div data-aos="zoom-in">
+                <div class="tarjetas" data-aos="zoom-in">
                     <img  class="imagenes_p2" src="../images/4juegos_niños.JPG" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Espacios de juegos infantiles seguros para todos los chicos de diferentes edades</p>
                 </div>
-                <div data-aos="zoom-in">
+                <div class="tarjetas" data-aos="zoom-in">
                     <img  class="imagenes_p2" src="../images/5sum.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Salón de Usos Múltiples equipado para todo tipo de eventos.</p>
                 </div>
-                <div data-aos="zoom-in">
+                <div class="tarjetas" data-aos="zoom-in">
                     <img  class="imagenes_p2" src="../images/6guarderia.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Espacio de guarderia infantil con profesionales altamente capacitados.</p>
                 </div>
             </article>
             
@@ -158,7 +142,7 @@
                             <img src="../images/1spa.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Espacios de SPA, con profesionales de primer nivel.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -166,7 +150,7 @@
                             <img src="../images/2solarium.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Solarium que cuenta con tres equipos de ultima generacion.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -174,7 +158,7 @@
                             <img src="../images/3parrilla.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Parrilla individual para uso familiar y en espacios comunes para eventos.</p>
                         </div>
                     </div>
                 </div>
@@ -184,7 +168,7 @@
                             <img src="../images/4juegos_niños.JPG" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Espacios de juegos infantiles seguros para todos los chicos de diferentes edades</p>
                         </div>
                     </div>
                     <div class="card">
@@ -192,7 +176,7 @@
                             <img src="../images/5sum.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Salón de Usos Múltiples equipado para todo tipo de eventos.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -200,7 +184,7 @@
                             <img src="../images/6guarderia.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Espacio de guarderia infantil con profesionales altamente capacitados.</p>
                         </div>
                     </div>
                 </div>
@@ -214,29 +198,29 @@
             <!-- PARA MOBIL Y DESKTOP -->
 
             <article class="cont_img">
-                <div data-aos="flip-left">
+                <div class="tarjetas" data-aos="flip-left">
                     <img  class="imagenes_p2" src="../images/1futbol.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Cuatro canchas de fútbol de cesped natural en la que se arman torneos semanales</p>
                 </div>
-                <div data-aos="flip-left">
+                <div class="tarjetas" data-aos="flip-left">
                     <img  class="imagenes_p2" src="../images/1voley.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Canchas de voley de arena y de cesped naturalcon medidas profesionales</p>
                 </div>
-                <div data-aos="flip-left">
+                <div class="tarjetas" data-aos="flip-left">
                     <img  class="imagenes_p2" src="../images/3tenis.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Tres canchas de tenis de polvo de ladrillo. Hay clases personalizadas</p>
                 </div>
-                <div data-aos="flip-left">
+                <div class="tarjetas" data-aos="flip-left">
                     <img  class="imagenes_p2" src="../images/4padel.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Una vuelta a los noventa con canchas de padel profesionales con alquiler de paletas </p>
                 </div>
-                <div data-aos="flip-left">
+                <div class="tarjetas" data-aos="flip-left">
                     <img  class="imagenes_p2" src="../images/5piscina.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Gran piscina con distintos niveles para podes disfrtar con amigos o en familia</p>
                 </div>
-                <div data-aos="flip-left">
+                <div class="tarjetas" data-aos="flip-left">
                     <img  class="imagenes_p2" src="../images/6basquet.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Canchas de basquet al aire libre con medidas profesionales. Torneos 3x3 diarios</p>
                 </div>
             </article>
             
@@ -249,7 +233,7 @@
                             <img src="../images/1futbol.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Cuatro canchas de fútbol de cesped natural en la que se arman torneos semanales</p>
                         </div>
                     </div>
                     <div class="card">
@@ -257,7 +241,7 @@
                             <img src="../images/1voley.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Canchas de voley de arena y de cesped natural con medidas profesionales.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -265,7 +249,7 @@
                             <img src="../images/3tenis.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Tres canchas de tenis de polvo de ladrillo. Hay clases personalizadas</p>
                         </div>
                     </div>
                 </div>
@@ -275,7 +259,7 @@
                             <img src="../images/4padel.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Una vuelta a los noventa con canchas de padel profesionales con alquiler de paletas</p>
                         </div>
                     </div>
                     <div class="card">
@@ -283,7 +267,7 @@
                             <img src="../images/5piscina.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Gran piscina con distintos niveles para podes disfrtar con amigos o en familia</p>
                         </div>
                     </div>
                     <div class="card">
@@ -291,7 +275,7 @@
                             <img src="../images/6basquet.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Canchas de basquet al aire libre con medidas profesionales</p>
                         </div>
                     </div>
                 </div>
@@ -305,29 +289,29 @@
             <!-- PARA MOBIL Y DESKTOP -->
 
             <article class="cont_img">
-                <div data-aos="flip-up">
+                <div class="tarjetas" data-aos="flip-up">
                     <img  class="imagenes_p2" src="../images/1treking2.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Cerros, lagos y quebradas. Todo para descubrir en los senderos.</p>
                 </div>
-                <div data-aos="flip-up">
+                <div class="tarjetas" data-aos="flip-up">
                     <img  class="imagenes_p2" src="../images/2rafting.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Rafting en el río, excursiones grupales o individuales</p>
                 </div>
-                <div data-aos="flip-up">
+                <div class="tarjetas" data-aos="flip-up">
                     <img  class="imagenes_p2" src="../images/3running.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Grupos de running de montaña. Ejercicio con los paisajes de fondo</p>
                 </div>
-                <div data-aos="flip-up">
+                <div class="tarjetas" data-aos="flip-up">
                     <img  class="imagenes_p2" src="../images/4bike.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Alquiler de bicicletas. Excursiones grupales todos los días.</p>
                 </div>
-                <div data-aos="flip-up">
+                <div class="tarjetas" data-aos="flip-up">
                     <img  class="imagenes_p2" src="../images/5cabalgata.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Experiencia de cabalgata. Recorridas grupales. Clases con profesionales</p>
                 </div>
-                <div data-aos="flip-up">
+                <div class="tarjetas" data-aos="flip-up">
                     <img  class="imagenes_p2" src="../images/6kayak.jpg" alt="imagen1" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores error voluptate nobis amet, libero provident! Vitae corporis, debitis quidem ad minus, molestiae architecto dolor magnam eaque, maiores explicabo nesciunt libero.</p>
+                    <p class="txt_img_activ">Alquiler de kayak para recorrer los lagos. Conocer el lugar desde otro punto de vista.</p>
                 </div>
             </article>
             
@@ -340,7 +324,7 @@
                             <img src="../images/1treking2.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Cerros, lagos y quebradas. Todo para descubrir en los senderos.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -348,7 +332,7 @@
                             <img src="../images/2rafting.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Rafting en el río, excursiones grupales o individuales</p>
                         </div>
                     </div>
                     <div class="card">
@@ -356,7 +340,7 @@
                             <img src="../images/3running.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Grupos de running de montaña. Ejercicio con los paisajes de fondo</p>
                         </div>
                     </div>
                 </div>
@@ -366,7 +350,7 @@
                             <img src="../images/4bike.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Alquiler de bicicletas. Excursiones grupales todos los días.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -374,7 +358,7 @@
                             <img src="../images/5cabalgata.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Experiencia de cabalgata. Recorridas grupales. Clases con profesionales</p>
                         </div>
                     </div>
                     <div class="card">
@@ -382,7 +366,7 @@
                             <img src="../images/6kayak.jpg" alt="imagen1" class="card-image" >
                         </div>
                         <div class="card-description">
-                            <p class="texto_img">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                            <p class="texto_img">Alquiler de kayak para recorrer los lagos. Conocer el lugar desde otro punto de vista</p>
                         </div>
                     </div>
                 </div>

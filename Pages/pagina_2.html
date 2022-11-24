@@ -13,7 +13,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- CSS main (CSS va siempre ultimo para que no los pise nada)-->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/style.css">
     
 </head>
     
@@ -31,43 +31,37 @@
                     </li>
                     <li><a class="fancy" href="../index.html">
                         <span class="top-key"></span>
-                        <span class="text">HOME</span>
+                        <span class="text_menu">HOME</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
                     </li>
                     <li><a class="fancy" href="./pagina_1.html">
                         <span class="top-key"></span>
-                        <span class="text">SERVICIOS</span>
+                        <span class="text_menu">SERVICIOS</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
                     </li>
                     <li><a class="fancy" href="./pagina_2.html">
                         <span class="top-key"></span>
-                        <span class="text">ALOJAMIENTO</span>
+                        <span class="text_menu">ALOJAMIENTO</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
                     </li>
                     <li><a class="fancy" href="./pagina_3.html">
                         <span class="top-key"></span>
-                        <span class="text">¿DONDE ESTAMOS?</span>
+                        <span class="text_menu">¿DONDE ESTAMOS?</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
                     </li>
 
-                    <!-- <li><a class="fancy" href="./quienes_somos.html">
-                        <span class="top-key"></span>
-                        <span class="text">¿QUIENES SOMOS?</span>
-                        <span class="bottom-key-1"></span>
-                        <span class="bottom-key-2"></span>
-                        </a>
-                    </li> -->
+                  
                     <li class="no_tablet"><a class="fancy" href="./contacto.html">
                         <span class="top-key"></span>
-                        <span class="text">CONTACTO</span>
+                        <span class="text_menu">CONTACTO</span>
                         <span class="bottom-key-1"></span>
                         <span class="bottom-key-2"></span>
                         </a>
@@ -82,15 +76,7 @@
                     <li><a href="https://www.youtube.com/" target="_blank"><img src="../images/youtube.png" alt="youtube" class="redes_soc_s"></a></li>
                 </ul>
             </nav>
-            <!-- <nav data-aos="fade-up"
-            data-aos-duration="3000">
-                <ul class="botones_submenu" data-aos="fade-up"
-                data-aos-duration="3000">
-                    <li><a href="#subcat2-1"><button class="button">Cabaña Moderna</button></a></li>
-                    <li><a href="#subcat2-2"><button class="button">Hostel</button></a></li>
-                    <li><a href="#subcat2-3"><button class="button">Bungalows</button></a></li>
-                </ul>
-            </nav> -->
+            
             <nav class="navbar navbar-expand-lg bg-light ">
                 <div class="container-fluid">
                   <a class="navbar-brand " href="#">Ver más</a>
@@ -99,9 +85,9 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link" href="#subcat2-1">Cabaña</a>
-                      <a class="nav-link" href="#subcat2-2">Hostel</a>
-                      <a class="nav-link" href="#subcat2-3">Bungalows</a>
+                      <a class="text_submenu" href="#subcat2-1">Cabaña</a>
+                      <a class="text_submenu" href="#subcat2-2">Hostel</a>
+                      <a class="text_submenu" href="#subcat2-3">Bungalows</a>
                     </div>
                   </div>
                 </div>
@@ -122,17 +108,17 @@
                           </div>
                           <div class="col-md-6">
                             <div class="card-body">
-                              <h5 class="card-title">CABAÑA</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p><div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <h5 class="card_title">CABAÑA</h5>
+                              <p class="card_text">Cabaña moderna, contando 5 habitaciones con espacios comunes y habitacion en suite. Area común y espacios compartidos. Ideal para grupos.</p>
+                              <p><div class="dropup-center dropup">
+                                <button class="boton_aloj btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   Acciones
                                 </button>
-                                <ul class="dropdown-menu dropdown-menu-dark">
+                                <ul class="acciones_formato dropdown-menu dropdown-menu-dark">
                                   <li><a class="dropdown-item active" href="./reservas.html">ir a reservas</a></li>
                                   <li><hr class="dropdown-divider"></li>
                                   <li><a class="dropdown-item" href="./pagina_1.html">ver más</a></li>
-                                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=SqmWYw7gGyI">conocer la ciudad</a></li>
+                                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=SqmWYw7gGyI " target="_blank">conocer la ciudad</a></li>
                                 </ul>
                             </div></small></p>
                             </div>
@@ -151,17 +137,17 @@
                           </div>
                           <div class="col-md-6">
                             <div class="card-body">
-                              <h5 class="card-title">HOSTEL</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p><div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <h5 class="card_title">HOSTEL</h5>
+                              <p class="card_text">Hostel con habitaciones individuales, pax 4 y pax 6. Con espacios comunes con todo para poder compartir con amigos y vincularse con personas de todo el mundo</p>
+                              <p><div class="dropup-center dropup">
+                                <button class="boton_aloj btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   Acciones
                                 </button>
-                                <ul class="dropdown-menu dropdown-menu-dark">
+                                <ul class="acciones_formato dropdown-menu dropdown-menu-dark">
                                   <li><a class="dropdown-item active" href="./reservas.html">ir a reservas</a></li>
                                   <li><hr class="dropdown-divider"></li>
                                   <li><a class="dropdown-item" href="./pagina_1.html">ver más</a></li>
-                                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=SqmWYw7gGyI">conocer la ciudad</a></li>
+                                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=SqmWYw7gGyI" target="_blank">conocer la ciudad</a></li>
                                 </ul>
                             </div></small></p>
                             </div>
@@ -179,17 +165,17 @@
                           </div>
                           <div class="col-md-6">
                             <div class="card-body">
-                              <h5 class="card-title">BUNGALOWS</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p><div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <h5 class="card_title">BUNGALOWS</h5>
+                              <p class="card_text">10 bungalows para 4 personas, con servicios individuales. Aptos para familias y grupos de amigos. Espacio ideal para alojarse en un entorno único</p>
+                              <p><div class="dropup-center dropup">
+                                <button class="boton_aloj btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   Acciones
                                 </button>
-                                <ul class="dropdown-menu dropdown-menu-dark">
+                                <ul class="acciones_formato dropdown-menu dropdown-menu-dark">
                                   <li><a class="dropdown-item active" href="./reservas.html">ir a reservas</a></li>
                                   <li><hr class="dropdown-divider"></li>
                                   <li><a class="dropdown-item" href="./pagina_1.html">ver más</a></li>
-                                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=SqmWYw7gGyI">conocer la ciudad</a></li>
+                                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=SqmWYw7gGyI" target="_blank">conocer la ciudad</a></li>
                                 </ul>
                             </div></small></p>
                             </div>
