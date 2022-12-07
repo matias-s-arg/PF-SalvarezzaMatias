@@ -505,6 +505,7 @@ footer {
 }
 
 .form_contacto {
+  padding: 100vw;
   color: #333333;
   font-style: bold;
   font-family: "Montserrat", sans-serif;
@@ -890,5 +891,6 @@ footer {
     font-size: 18px;
   }
 }
+
 
 /*# sourceMappingURL=style.css.map */
